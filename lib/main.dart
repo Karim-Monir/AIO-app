@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:sip_n_pee/home_screen.dart';
-// import 'package:sip_n_pee/login_screen.dart';
+import 'package:sip_n_pee/login_screen.dart';
 // import 'package:sip_n_pee/messenger_screen.dart';
 // import 'package:sip_n_pee/users_screen.dart';
 
@@ -23,7 +23,7 @@ class Sip_n_Pee extends StatelessWidget
   {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home : CounterScreen(),
+      home : LoginScreen(),
     );
   }
 }
